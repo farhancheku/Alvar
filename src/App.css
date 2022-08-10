@@ -1,0 +1,759 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+.carousel-control-next-icon{
+  background-image :url(/public/images/Group9398.png) !important;
+  transform: scaleX(-1);
+  position: relative;
+  left: 10%;
+  width: 40px;
+height: 40px;
+}
+
+
+.new_cardd{
+  position: relative;
+  top:15px;
+}
+.imageFULL {
+  background-size: cover !important;
+  position: relative;
+ 
+  
+}
+.carousel-control-prev-icon{
+background-image : url(/public/images/Group9398.png) !important;
+color: white;
+position: relative;
+right: 10%;
+width: 40px;
+height: 40px;
+
+}
+.list-group-item {
+  border: none !important;
+}
+.list-group-item {
+  background-color: transparent !important;
+  color: white !important;
+  /* font-size: x-large !important; */
+}
+.Row {
+  margin: 0 !important;
+  /* padding: 0 !important; */
+}
+
+.carousel-caption {
+  position: absolute !important;
+  right: 58% !important;
+  bottom: 40% !important;
+  left: 10% !important;
+  padding: 10px 20px !important;
+  color: #fff !important;
+  text-align: left !important;
+  border: 0.6vw solid #e7f0f0 !important;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+.carouselImage {
+  background-size: 100% 100%;
+  width: 100% !important;
+  height: fit-content;
+  object-fit: contain !important;
+}
+@media (min-width: 993px) and (max-width: 1400px) {
+.divimg{
+  margin-right: 25px;
+  padding-right: 40px;
+  
+
+}
+
+
+
+}
+@media (min-width: 0px) and (max-width: 320px) {
+  .caroText {
+    position: absolute !important;
+    right: 2% !important;
+
+    top: 65% !important;
+  }
+  .carousel-caption {
+    position: absolute !important;
+    right: 15% !important;
+    left: 15% !important;
+  }
+  .banner2-text{
+    top: 15% !important;
+    right: 42% !important;
+    border: 3px solid white !important;
+    padding:0% !important;
+  }
+  .banner2-text h1{
+    font-size: 1rem;
+  }
+  .banner2-text h3 {
+    font-size: 0.5rem !important;
+    margin: -1.5rem 0rem 0rem 5rem !important;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 360px) {
+  .caroText {
+    position: absolute !important;
+    right: 2% !important;
+    left: 5% !important;
+    top: 65% !important;
+  }
+  .carousel-caption {
+    position: absolute !important;
+    right: 15% !important;
+    left: 15% !important;
+  }
+  .banner2-text{
+    top: 10% !important;
+    right: 42% !important;
+    border: 3px solid white !important;
+    padding: 2% !important;
+  }
+  .banner2-text h1{
+    font-size: 1rem;
+  }
+  .banner2-text h3 {
+    font-size: 0.5rem !important;
+    margin: -1.5rem 0rem 0rem 6rem !important;
+  }
+}
+@media (min-width: 361px) and (max-width: 390px) {
+  .caroText {
+    position: absolute !important;
+    right: 2% !important;
+    left: 5% !important;
+    top: 65% !important;
+  }
+  .carousel-caption {
+    position: absolute !important;
+    right: 15% !important;
+    left: 15% !important;
+  }
+  .howmist-h2{
+    padding-top: 1rem !important;
+  }
+  .banner2-text{
+    top: 12% !important;
+    right: 42% !important;
+    border: 3px solid white !important;
+    padding: 0% !important;
+  }
+  .banner2-text h1{
+    font-size: 1rem;
+  }
+  .banner2-text h3 {
+    font-size: 0.5rem !important;
+    margin: -1.5rem 0rem 0rem 6rem !important;
+  }
+}
+@media (min-width: 391px) and (max-width: 450px) {
+  .banner2-descriptions {
+    
+   
+    color: white;
+    line-height: 0%;
+    /* text-align: left; */
+    margin-top: 0px;
+    font-size: 4px;
+}
+.main_banner{
+    position: absolute;
+    top: 13% !important;;
+    left: 15%;
+    right: 45%;
+    /* border:6px solid red; */
+    color: white;
+    /* text-align: left; */
+    padding: 0px;
+}
+.banner2-text_2 h1 {
+  margin: 0;
+  font-size: 0.9rem !important;
+  
+}
+
+.banner2-text_2 h3 {
+  font-size: 0.5rem;
+  margin: -1.5rem 0rem 0rem 6rem;
+  
+
+  
+  
+ 
+}
+.banner2-text_2{
+
+
+    border: 4px solid rgb(242, 239, 239)!important;
+    color: white;
+    text-align: left;
+    padding: 11px;
+    
+
+}
+
+
+  .caroText {
+    position: absolute !important;
+    right: 2% !important;
+    left: 5% !important;
+    top: 65% !important;
+  }
+  .carousel-caption {
+    position: absolute !important;
+    right: 15% !important;
+    left: 15% !important;
+  }
+  .banner2-text{
+    top: 12% !important;
+    right: 47% !important;
+    border: 3px solid white !important;
+    padding: 5px !important;
+  }
+  .banner2-text h1{
+    font-size: 1rem;
+  }
+  .banner2-text h3 {
+    font-size: 0.5rem !important;
+    margin: -1.5rem 0rem 0rem 6rem !important;
+  }
+}
+@media (min-width: 451px) and (max-width: 550px) {
+  .caroText {
+    position: absolute !important;
+    right: 2% !important;
+    left: 5% !important;
+    top: 65% !important;
+  }
+  .carousel-caption {
+    position: absolute !important;
+    right: 15% !important;
+    left: 15% !important;
+  }
+  .banner2-text{
+    top: 9% !important;
+    right: 40% !important;
+  }
+  .banner2-text h1{
+    font-size: 1.5rem;
+  }
+  .banner2-text h3 {
+    font-size: 0.6rem !important;
+    margin: -1.5rem 0rem 0rem 8rem !important;
+  }
+}
+@media (min-width: 551px) and (max-width: 650px) {
+  .caroText {
+    position: absolute !important;
+    right: 2% !important;
+    left: 5% !important;
+    top: 75% !important;
+  }
+  .carousel-caption {
+    position: absolute !important;
+    right: 15% !important;
+    left: 15% !important;
+  }
+  .banner2-text{
+    right: 38% !important;
+  }
+}
+
+@media (min-width: 651px) and (max-width: 750px) {
+  .caroText {
+    position: absolute !important;
+    right: 2% !important;
+    left: 10% !important;
+    top: 65% !important;
+  }
+  .carousel-caption {
+    position: absolute !important;
+    right: 45% !important;
+    left: 15% !important;
+  }
+  .banner2-text{
+    top: 10% !important;
+    right: 45% !important;
+  }
+  .banner2-text h3{
+    margin: -1.5rem 0rem 0rem 11rem !important;
+  }
+
+}
+@media (min-width: 751px) and (max-width: 768px) {
+  .caroText {
+    position: absolute !important;
+    right: 18% !important;
+    left: 10% !important;
+    top: 65% !important;
+  }
+  .carousel-caption {
+    position: absolute !important;
+    right: 45% !important;
+    left: 15% !important;
+  }
+  .banner2-text{
+    top: 20% !important;
+    right: 48% !important;
+  }
+  .banner2-text h3{
+    margin: -1.5rem 0rem 0rem 11rem !important;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 850px) {
+  .caroText {
+    position: absolute !important;
+    right: 18% !important;
+    left: 10% !important;
+    top: 65% !important;
+  }
+  .carousel-caption {
+    position: absolute !important;
+    right: 45% !important;
+    left: 15% !important;
+  }
+  .carouselImage {
+    width: 100% !important;
+    height: 500px !important;
+    object-fit: cover !important;
+  }
+  .banner2-text{
+    top: 12% !important;
+    right: 52% !important;
+  }
+  .banner2-text h3{
+    margin: -1.5rem 0rem 0rem 11rem !important;
+  }
+  .footer-text{
+    margin-top: 2rem;
+  }
+  .footer-product{
+    left: 4rem !important;
+    margin-top: 4rem !important;
+    padding: 2px !important;
+  }
+  .footer-logo2{
+    margin-left: -3rem !important;
+  }
+  .footer-logo{
+    width: 20rem !important;
+    margin-top: 2rem !important;
+  }
+  .footer-product p{
+    font-size: 1.2rem !important;
+  }
+}
+@media (min-width: 851px) and (max-width: 992px) {
+  .caroText {
+    position: absolute !important;
+    right: 18% !important;
+    left: 10% !important;
+    top: 65% !important;
+  }
+  .carousel-caption {
+    position: absolute !important;
+    right: 45% !important;
+    left: 15% !important;
+  }
+  .carouselImage {
+    width: 100% !important;
+    height: 500px !important;
+    object-fit: cover !important;
+  }
+  /* .banneres {
+    margin: -7rem 29rem 0rem 0rem !important;
+  } */
+  .banneres h4 {
+    font-size: 1rem;
+  }
+  .banner2-text{
+    top: 12% !important;
+    right: 56% !important;
+  }
+  .banner2-text h3{
+    margin: -1.5rem 0rem 0rem 11rem !important;
+  }
+  .mistcoreslider2-text{
+    padding-left: 0;
+  }
+}
+@media (min-width: 993px) and (max-width: 1024px) {
+  .caroText {
+    position: absolute !important;
+    right: 18% !important;
+    left: 11% !important;
+    top: 65% !important;
+  }
+  .carousel-caption {
+    position: absolute !important;
+    right: 45% !important;
+    left: 15% !important;
+  }
+  .carouselImage {
+    width: 100% !important;
+    height: 500px !important;
+    object-fit: cover !important;
+  }
+  .banner2-text{
+    top: 16% !important;
+    right: 54% !important;
+  }
+  .banner2-text h3{
+    margin: -1.5rem 0rem 0rem 11rem !important;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1041px) {
+  .caroText {
+    position: absolute !important;
+    right: 18% !important;
+    left: 10% !important;
+    top: 65% !important;
+  }
+  .carousel-caption {
+    position: absolute !important;
+    right: 45% !important;
+    left: 15% !important;
+  }
+  .carouselImage {
+    width: 100% !important;
+    height: 450px !important;
+    object-fit: cover !important;
+  }
+  /* .banneres {
+    margin: -10rem 29rem 2rem 0rem !important;
+    padding: 3rem !important;
+} */
+.banner2-text{
+  top: 12% !important;
+}
+.banner2-text h3{
+  margin: -1.5rem 0rem 0rem 11rem !important;
+}
+.mistcoreslider2-text{
+  padding-left: 5rem;
+}
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+  .carouselImage {
+    width: 100% !important;
+    height: 450px !important;
+    object-fit: cover !important;
+  }
+
+}
+
+@media (min-width: 1042px) and (max-width: 1300px) {
+  .caroText {
+    position: absolute !important;
+    left: 10% !important;
+    top: 75% !important;
+    right: 30% !important;
+
+    /* padding-left: 2.5rem !important; */
+    color: #fff !important;
+    text-align: left !important;
+    
+  }
+  .carousel-caption {
+    position: absolute !important;
+    right: 58% !important;
+    bottom: 30% !important;
+    left: 10% !important;
+    padding: 10px 20px !important;
+    color: #fff !important;
+    text-align: left !important;
+    border: 0.6vw solid #e7f0f0 !important;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  }
+  .banner2-text{
+    top: 20% !important;
+  }
+  .banner2-text h3{
+    margin: -1.5rem 0rem 0rem 12rem !important;
+  }
+  .mistcoreslider2-text{
+    padding: 2rem;
+  }
+  
+}
+@media (min-width: 1301px) and (max-width: 1400px) {
+  .caroText {
+    position: absolute !important;
+    left: 10% !important;
+    top: 75% !important;
+    right: 30% !important;
+
+    /* padding-left: 2.5rem !important; */
+    color: #fff !important;
+    text-align: left !important;
+  }
+  .carousel-caption {
+    position: absolute !important;
+    right: 58% !important;
+    bottom: 30% !important;
+    left: 10% !important;
+    padding: 10px 20px !important;
+    color: #fff !important;
+    text-align: left !important;
+    border: 0.6vw solid #e7f0f0 !important;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  }
+  .banner2-text{
+    top: 20% !important;
+  }
+}
+
+@media (min-width: 1401px) and (max-width: 1500px) {
+  .caroText {
+    position: absolute !important;
+    left: 10% !important;
+    top: 75% !important;
+    right: 30% !important;
+    color: #fff !important;
+    text-align: left !important;
+  }
+  .carousel-caption {
+    position: absolute !important;
+    right: 55% !important;
+    bottom: 30% !important;
+    left: 10% !important;
+    padding: 10px 20px !important;
+    color: #fff !important;
+    text-align: left !important;
+    border: 0.6vw solid #e7f0f0 !important;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  }
+  .banner2-text{
+    top: 20% !important;
+  }
+}
+
+@media (min-width: 1501px) and (max-width: 1600px) {
+  .caroText {
+    position: absolute !important;
+    left: 10% !important;
+    top: 75% !important;
+    bottom: 40% !important;
+    right: 30% !important;
+    color: #fff !important;
+    text-align: left !important;
+  }
+  .carousel-caption {
+    position: absolute !important;
+    right: 55% !important;
+    bottom: 30% !important;
+    left: 10% !important;
+    padding: 10px 20px !important;
+    color: #fff !important;
+    text-align: left !important;
+    border: 0.6vw solid #e7f0f0 !important;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  }
+}
+@media (min-width: 1601px) and (max-width: 1700px) {
+  .caroText {
+    position: absolute !important;
+    left: 10% !important;
+    top: 75% !important;
+    bottom: 40% !important;
+    right: 30% !important;
+    color: #fff !important;
+    text-align: left !important;
+  }
+  .carousel-caption {
+    position: absolute !important;
+    right: 55% !important;
+    bottom: 30% !important;
+    left: 10% !important;
+    padding: 10px 20px !important;
+    color: #fff !important;
+    text-align: left !important;
+    border: 0.6vw solid #e7f0f0 !important;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  }
+}
+@media (min-width: 1701px) and (max-width: 1900px) {
+  .caroText {
+    position: absolute !important;
+    left: 10% !important;
+    top: 75% !important;
+    bottom: 40% !important;
+    right: 30% !important;
+    color: #fff !important;
+    text-align: left !important;
+  }
+  .carousel-caption {
+    position: absolute !important;
+    right: 55% !important;
+    bottom: 30% !important;
+    left: 10% !important;
+    padding: 10px 20px !important;
+    color: #fff !important;
+    text-align: left !important;
+    border: 0.6vw solid #e7f0f0 !important;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  }
+}
+@media (min-width: 1901px) and (max-width: 2100px) {
+  .caroText {
+    position: absolute !important;
+    left: 10% !important;
+    top: 75% !important;
+    bottom: 40% !important;
+    right: 30% !important;
+    color: #fff !important;
+    text-align: left !important;
+  }
+  .carousel-caption {
+    position: absolute !important;
+    right: 55% !important;
+    bottom: 30% !important;
+    left: 10% !important;
+    padding: 10px 20px !important;
+    color: #fff !important;
+    text-align: left !important;
+    border: 0.6vw solid #e7f0f0 !important;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  }
+}
+
+@media (min-width: 1922px) and (max-width: 1000000px) {
+  .imageFULL {
+    background-size: cover !important;
+  }
+  .banner2-text{
+    top: 50%;
+  }
+}
+.caroText {
+  position: absolute !important;
+  left: 8% !important;
+  bottom: 3.5%;
+  top: 65%;
+
+  padding-left: 2.5rem !important;
+  color: #fff !important;
+  text-align: left !important;
+}
+.btn-primary {
+  color: white !important ;
+  background-color: #0c2c5b !important;
+}
+.btn {
+  border-radius: 0 !important;
+  border: 0 solid #0c2c5b !important;
+}
+.card-body-news {
+  background-color: white !important;
+  color: black !important;
+  text-align: left !important;
+}
+.card-footer-news {
+  padding: 0 !important;
+  background-color: transparent !important;
+  border-top: none !important;
+}
+.navbar-collapse {
+  color: red !important;
+  padding-right: 10vw !important;
+  align-items: right !important;
+  margin-left: 40vw !important;
+}
+
+/* ------------------carousel---------------- */
+.react-multi-carousel-item {
+  width: fit-content !important;
+}
+
+.preserCard {
+  box-shadow: 5px 5px 20px -10px black;
+  color: white !important;
+  text-align: center !important;
+
+  padding: 0 !important;
+  border: none !important;
+}
+.preCardBody {
+  padding: 0 !important;
+}
+
+/*------------------------offcanvas dropdown ------------*/
+.dropbtn {
+  background-color: transparent;
+  color: white;
+
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  
+}
+.covas_b{
+  margin-left: 20px !important;
+  /* padding-left: 20px!important; */
+}
+
+
+.dropdown-content {
+  display: block;
+  font-size: 12px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: transparent;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* @media (min-width: 948px) and (max-width: 1500px) {
+  .ourstory-parag{
+    padding-left: 10px;
+  }
+
+  .ourstory-readmore{
+    padding-left: 10px;
+  }
+} */
+/*-----------t
+est----------*/
+.subnews{
+  padding-right: 100px !important;
+  text-shadow: none;
+}
+.subnews1{
+  padding-left: 50px !important;
+  text-shadow: none;
+}
+.paranews{
+  font-size: 1.3rem;
+}
+.datacursr{
+  font-size: 1.4rem !important;
+}
+.textw h1{
+  line-height: 1rem !important;
+}
